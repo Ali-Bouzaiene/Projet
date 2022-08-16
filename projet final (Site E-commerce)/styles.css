@@ -1,0 +1,660 @@
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgb(73, 71, 71);
+}
+
+html, body {        
+    margin: 0;
+    padding: 0;
+    min-height: 100%;  
+}
+
+.nav ul {
+    margin: 0;     
+}
+nav.outil{
+       
+}
+.outil li {
+    display: inline;    
+}
+
+.outil a {       
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: relative;     
+    padding: .5em;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+.outil { 
+    background-color: #515052;     
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;  
+          
+}
+
+.outil li {
+    padding: 0 5%;
+}
+
+.outil a:hover {
+    background-color: rgba(82, 79, 81, 0.863);
+    color: aliceblue;     
+}
+i{
+    color: blanchedalmond;
+}
+.titre {    
+    text-align: center;
+    position: relative;
+    margin-top: 2%;
+    font-size: 2.5em;
+    font-family: fantasy;
+    font-weight: normal;
+    color: rgb(37, 27, 85);
+
+}
+.domestique {
+    
+    margin-left: 5%;
+    margin-top: 7%;
+  
+}
+.paragraphe1 {    
+    height: 200px;
+    width: 900px;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;    
+    margin-left: 45%;
+    margin-top: -40%;       
+}
+.paragraphe1:hover {
+    color: rgb(1, 6, 10);
+    font-size: 20px;
+    transition-duration: 1s;
+}
+.description {
+    background: rgb(185, 182, 176);
+    height: 500px;          
+} 
+.chat { 
+    background-color: rgba(126, 123, 125, 0.856); 
+    height: 200px; 
+    width: 600px;  
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.photos {
+    margin-top: 5%;
+    margin-left:2%;
+    height: 130px;
+    width: 130px;
+}
+#titre1 {    
+    margin-left: 24%;
+    margin-top: -22%;
+    color: rgba(110, 28, 28, 0.952);
+}
+.paragraphe2 {
+    margin-left: 26%;
+    margin-top: -3%;
+    color: black;
+    font-size: 18px;    
+}
+.paragraphe2:hover {
+    background-color: rgb(150, 147, 114);
+    color: black;
+    transition-duration: 1s;   
+}
+.chien {
+    background-color: rgba(85, 20, 63, 0.856); 
+    height: 200px; 
+    width: 600px; 
+    position: absolute;
+    margin-top: 2%;
+    right: 4%; 
+}
+.paragraphe3 {
+    margin-left: 26%;
+    margin-top: -2%;
+    color: black;
+    font-size: 18px;    
+}
+.paragraphe3:hover {
+    background-color: rgb(150, 147, 114);
+    color: black;
+    transition-duration: 1s;
+}
+.humster {
+    background-color: rgba(153, 185, 184, 0.945); 
+    height: 200px; 
+    width: 600px; 
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 4%;
+}
+.paragraphe4 {
+    margin-left: 26%;
+    margin-top: -2%;
+    color: black;
+    font-size: 18px;    
+}
+.paragraphe4:hover {
+    background-color: rgb(150, 147, 114);
+    color: black;
+    transition-duration: 1s;
+}
+.oiseaux {
+    background-color: rgba(235, 231, 22, 0.856); 
+    height: 200px; 
+    width: 600px; 
+    position: absolute;
+    margin-top: 20%;
+    right: 4%; 
+} 
+.paragraphe5 {
+    margin-left: 26%;
+    margin-top: -2%;
+    color: black;
+    font-size: 18px;    
+}
+.paragraphe5:hover {
+    background-color: rgb(150, 147, 114);
+    color: black;
+    transition-duration: 1s;
+}
+.poule {
+    background-color: rgba(236, 139, 215, 0.945); 
+    height: 200px; 
+    width: 600px; 
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 4%;
+}
+.paragraphe6 {
+    margin-left: 26%;
+    margin-top: -2%;
+    color: black;
+    font-size: 18px;    
+}
+.paragraphe6:hover {
+    background-color: rgb(150, 147, 114);
+    color: black;
+    transition-duration: 1s;
+}
+.poissons {
+    background-color: rgba(52, 100, 64, 0.856); 
+    height: 200px; 
+    width: 600px; 
+    position: absolute;
+    margin-top: 38%;
+    right: 4%; 
+} 
+.paragraphe7 {
+    margin-left: 26%;
+    margin-top: -2%;
+    color: black;
+    font-size: 18px;    
+}
+.paragraphe7:hover {
+    background-color: rgb(150, 147, 114);
+    color: black;
+    transition-duration: 1s;
+}
+.liste{
+    display: none;
+}
+.outil ul li:hover .liste {
+    display: block;
+    position: absolute;
+    margin-left: 24%;
+}
+.liste1 {
+    display: none;    
+}
+.liste1 ul li {
+    font-size: 15px;
+}
+.outil ul li:hover .liste1 {
+    display: block;
+    position: absolute;
+    margin-left: 40%;    
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+  } 
+  input[type=submit] {
+    background-color: #555857;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  } 
+  .container {
+    margin-top: 3%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  * {
+    box-sizing: border-box;
+  }  
+  .example{
+      margin-top: 1%;
+      margin-right: 5%;
+      
+  }  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 15%;
+    background: #f1f1f1;
+  }  
+   form.example button {
+    float: right;
+    width: 5%;
+    padding: 10px;
+    margin-top: 0.4%;
+    background: #7e8286;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }  
+  form.example button:hover {
+    background: #0b7dda;
+  }  
+   form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .cats{
+  text-align: center;
+  color: black;  
+  background: #829b6e;
+  height: 60px;   
+  }
+  h1{
+      position: relative;
+      top: 10px;
+  }
+  .cats:hover{
+      background-color: rgb(166, 194, 175);
+      height: 60px;
+      transition: 1s;    
+  }
+  h1 a{
+      color: black;
+  }
+  h1 a:hover{
+      color: crimson;
+  } 
+
+.add {
+    color: white;
+    background-color: #a1104d;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.add:hover {
+    background-color: #e6ac0d;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: cursive;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 200px;
+    width: 300px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dogs{
+    text-align: center;    
+    background: #7d6681;
+    height: 60px;   
+    }
+.dogs h1{
+    color: rgb(192, 189, 189);
+    }
+.dogs h1:hover{
+    color: crimson;
+    }
+.dogs:hover{
+    background-color: rgb(134, 81, 130);
+    height: 60px;
+    transition: 1s;    
+    }
+
+.Birds{
+    text-align: center;    
+    background: #517c60;
+    height: 60px;   
+    }  
+.Birds h1{
+    color: rgb(11, 2, 90);
+    }
+.Birds h1:hover{
+    color: crimson;
+    }
+.Birds:hover{
+    background-color: rgb(146, 142, 146);
+    height: 60px;
+    transition: 1s;    
+    }
+.Hamsters{
+    text-align: center;    
+    background: #b5c081;
+    height: 60px;   
+        }  
+.Hamsters h1{
+    color: black;
+    }
+.Hamsters h1:hover{
+    color: rgb(4, 58, 11);
+    }
+.Hamsters:hover{
+    background-color: rgb(158, 134, 158);
+    height: 60px;
+    transition: 1s;    
+    }
+.sauvages-lists{
+    background-color: rgb(245, 237, 237);
+}
+.food-lists{
+    background-color: #e66c3d;
+}
+h1 a {
+    text-decoration: none;  
+}
+.section-header{
+    text-align: center;
+    color: rgb(8, 2, 2);
+    font-size: xx-large;
+    font-family: fantasy;
+}
+.cart-row{    
+    text-align: center;    
+}
+.cart-row span{
+    text-align: center;
+    padding: 6em;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+}
+* {box-sizing: border-box}
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; 
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    width: 11%;
+    font-weight: bold;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+    position: relative;
+    left: 5%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+    position: relative;
+    right: 5%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    width: 40%;
+    margin-left: 50%;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    position: relative;
+    left: 40%;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
